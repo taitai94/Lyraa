@@ -68,6 +68,8 @@ struct FSharedRepMovement
 	UPROPERTY(Transient)
 	uint8 RepMovementMode = 0;
 
+	UPROPERTY(VisibleAnywhere, )
+
 	UPROPERTY(Transient)
 	bool bProxyIsJumpForceApplied = false;
 
